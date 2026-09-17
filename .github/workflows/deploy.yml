@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: read
-  administration: write
   pages: write
   id-token: write
 
@@ -29,10 +28,8 @@ jobs:
       - name: Prepare site
         run: mkdir -p _site && cp index.html _site/
 
-      - name: Configure Pages
+      - name: Setup Pages (must be enabled once in repo Settings)
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
