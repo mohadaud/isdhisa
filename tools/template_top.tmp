@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="so">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,__FAVICON_B64__" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Lavender Fit — Calisthenics Tracker</title>
+    <meta name="description" content="Jadwalka jimicsiga Calisthenics, la socodka horumarka, iyo caafimaadka guud. Track your 30-day calisthenics challenge, workouts, weight progress and achievements." />
+    <meta property="og:title" content="Lavender Fit — Calisthenics Tracker" />
+    <meta property="og:description" content="Your personal calisthenics fitness tracker with 30-day challenge, progress charts, and daily check-ins." />
+
+    <!-- React 18 UMD - vendored inline for offline use (React 19 has no UMD builds) -->
+    <!--VENDOR_INLINE:react.production.min.js-->
+    <!--VENDOR_INLINE:react-dom.production.min.js-->
+    <!--VENDOR_INLINE:react-is.production.min.js-->
+    <!-- Recharts 3 UMD - vendored inline for offline use -->
+    <!--VENDOR_INLINE:Recharts.js-->
+    <!-- Inter font (variable, latin subset) - embedded for offline use -->
+    <!--FONTS_INLINE-->
+    <!-- Babel standalone - vendored inline for offline use; compiles the JSX below in-browser -->
+    <!--VENDOR_INLINE:babel.min.js-->
+
+    <style>
